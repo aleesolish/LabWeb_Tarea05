@@ -10,7 +10,7 @@ module.exports = {
       port: process.env.DB_DEVELOPMENT_PORT || '3306',
       database: process.env.DB_DEVELOPMENT_NAME || 'my_database',
       user:  process.env.DB_DEVELOPMENT_USER || 'root',
-      password: process.env.DB_DEVELOPMENT_PASSWORD || ''
+      password: process.env.DB_DEVELOPMENT_PASSWORD || 'soLis.12'
     },
     pool: {
       min: 2,
@@ -27,7 +27,7 @@ module.exports = {
       port: process.env.DB_PRODUCTION_PORT || '3306',
       database: process.env.DB_PRODUCTION_NAME || 'my_database',
       user:  process.env.DB_PRODUCTION_USER || 'root',
-      password: process.env.DB_PRODUCTION_PASSWORD || ''
+      password: process.env.DB_PRODUCTION_PASSWORD || 'soLis.12'
     },
     pool: {
       min: 2,
